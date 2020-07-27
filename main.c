@@ -1,6 +1,12 @@
 #include <stdio.h>
 
+void output(const char * text) {
+    printf("%s", text);
+}
+
 int main() {
-    printf("Hello World!");
+    output("Hello World!");
     return 0;
 }
+
+
